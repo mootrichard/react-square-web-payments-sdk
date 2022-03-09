@@ -24,6 +24,9 @@
   "peerDependencies": {
     "react": ">=16"
   },
+  "resolutions": {
+    "@square/web-payments-sdk-types": "^1.0.0"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -93,7 +96,7 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
-    "@square/web-sdk": "^2.0.0",
+    "@square/web-sdk": "^2.0.0-alpha.2",
     "@stitches/react": "^1.0.0"
   }
 }

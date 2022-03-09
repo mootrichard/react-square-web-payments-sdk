@@ -1,4 +1,5 @@
 export * from './AchPay';
+export * from './AfterpayClearpay';
 export * from './ApplePay';
 export * from './CreditCardInput';
 export * from './GiftCardInput';
