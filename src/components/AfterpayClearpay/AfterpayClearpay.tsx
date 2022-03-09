@@ -106,7 +106,7 @@ export const AfterpayClearpay = ({
     };
 
     start();
-  }, [createPaymentRequest, payments, afterpayClearpayProps]);
+  }, [createPaymentRequest, payments]);
 
   useEventListener({
     listener: handlePayment,
